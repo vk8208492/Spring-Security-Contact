@@ -9,7 +9,7 @@
         <version>3.2.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>app</groupId>
+    <groupId>org.example</groupId>
     <artifactId>Spring-Security-Contact</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Spring-Boot-Security</name>
