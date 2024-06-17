@@ -1,0 +1,24 @@
+CREATE DATABASE contact_db;
+
+
+CREATE TABLE IF NOT EXISTS contacts
+( id BIGINT NOT NULL AUTO_INCREMENT,
+  name VARCHAR(255),
+  phone VARCHAR(255),
+  email VARCHAR(255),
+  password VARCHAR(255),
+  PRIMARY KEY (id)
+);
+
+
+CREATE TABLE IF NOT EXISTS roles
+( id BIGINT NOT NULL AUTO_INCREMENT,
+  name VARCHAR(255),
+  PRIMARY KEY (id)
+);
+
+
+CREATE TABLE IF NOT EXISTS contacts_roles
+( contacts_id BIGINT,
+  role_id BIGINT
+);
