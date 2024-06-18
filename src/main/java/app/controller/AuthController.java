@@ -56,7 +56,7 @@ public class AuthController {
     }
 
     @GetMapping("/contacts")
-    public String listRegisteredUsers(Model model) {
+    public String listRegisteredContacts(Model model) {
         List<ContactDto> contacts = contactService.findAllContacts();
         model.addAttribute("contacts", contacts);
         return "contacts";

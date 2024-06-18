@@ -15,5 +15,4 @@ public class SpringSecurityContactApplication {
         SpringApplication.run(SpringSecurityContactApplication.class, args);
         LOGGER.info("APP is running...");
     }
-
 }
