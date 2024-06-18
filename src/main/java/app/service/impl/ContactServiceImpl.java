@@ -57,7 +57,7 @@ public class ContactServiceImpl implements ContactService {
 
     private ContactDto convertEntityToDto(Contact contact) {
         ContactDto contactDto = new ContactDto();
-        String[] name = contactDto.getName().split(" ");
+        String[] name = contact.getName().split(" ");
         contactDto.setName(contact.getName());
         contactDto.setPhone(contact.getPhone());
         contactDto.setEmail(contact.getEmail());
