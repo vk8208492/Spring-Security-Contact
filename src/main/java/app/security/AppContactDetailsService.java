@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 
 
 @Service
-public abstract class AppContactDetailsService implements UserDetailsService{
+public class AppContactDetailsService implements UserDetailsService{
 
     private final ContactRepository contactRepository;
 
